@@ -1,0 +1,35 @@
+{
+  "name": "nyt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "handlebars": "^4.0.10",
+    "mongodb": "^2.2.27",
+    "mongoose": "^4.10.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "request": "^2.81.0",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contour66/nyt-react.git"
+  },
+  "author": "zamir thind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contour66/nyt-react/issues"
+  },
+  "homepage": "https://github.com/contour66/nyt-react#readme"
+}
