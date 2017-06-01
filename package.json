@@ -1,35 +1,23 @@
 {
-  "name": "nyt",
+  "name": "your-project-here",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "author": "YOUR NAME",
+  "license": "ISC",
   "dependencies": {
-    "babel": "^6.23.0",
-    "babel-core": "^6.24.1",
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "handlebars": "^4.0.10",
-    "mongodb": "^2.2.27",
-    "mongoose": "^4.10.4",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "request": "^2.81.0",
-    "require": "^2.4.20"
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
   },
   "devDependencies": {
-    "webpack": "^2.6.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/contour66/nyt-react.git"
-  },
-  "author": "zamir thind",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/contour66/nyt-react/issues"
-  },
-  "homepage": "https://github.com/contour66/nyt-react#readme"
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.13.1"
+  }
 }
